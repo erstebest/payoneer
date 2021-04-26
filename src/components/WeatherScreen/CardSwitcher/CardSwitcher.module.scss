@@ -1,0 +1,14 @@
+.cardSwitcher {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.arrows {
+    cursor: pointer;
+}
+
+.disabledArrow {
+    opacity: 0.5;
+    pointer-events: none;
+}

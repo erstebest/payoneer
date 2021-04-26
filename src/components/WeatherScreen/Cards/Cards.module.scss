@@ -1,0 +1,22 @@
+.cards {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid #dadce0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card:hover,
+.cardSelected {
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.name {
+    font-weight: 600;
+}
