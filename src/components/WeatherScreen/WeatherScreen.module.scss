@@ -1,15 +1,17 @@
+@import '../../scss/colors.scss';
+
 .weatherScreen {
     padding: 20px;
     display: grid;
     grid-gap: 20px;
     grid-auto-rows: max-content;
     margin: 20px;
-    border: 1px solid #dadce0;
+    border: 1px solid $light;
     color: #383838;
     position: relative;
     min-height: 500px;
 }
 
 .weatherScreen svg {
-    fill: #4e75b9;
+    fill: $blue;
 }

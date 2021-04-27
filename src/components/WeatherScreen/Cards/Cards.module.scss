@@ -1,3 +1,5 @@
+@import '../../../scss/colors.scss';
+
 .cards {
     display: grid;
     grid-auto-flow: column;
@@ -6,14 +8,14 @@
 }
 
 .card {
-    border: 1px solid #dadce0;
+    border: 1px solid $light;
     padding: 10px;
     cursor: pointer;
 }
 
 .card:hover,
 .cardSelected {
-    border: 1px solid #b4b4b4;
+    border: 1px solid $darkGray;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
 }
 
